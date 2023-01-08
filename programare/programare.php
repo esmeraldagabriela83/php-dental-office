@@ -286,14 +286,14 @@ if( $_POST['password'] == $_POST['password-check'] ){
   // echo '<br>' ;
 
 
-  mail('esmeraldagabriela83@yahoo.com' ,
+  mail('nicu.moraru55@gmail.com' ,
         'Mail de pe site-ul php-dental-office/programare.php' ,
         'Username este: ' . $_POST['username'] .
         ' User  phone:  ' . $_POST['phone'] .
         ' User  email:  ' . $_POST['email'] .
-        ' user regiune:  ' . $_POST['regiuni'] .
-        ' user with age:  ' . $_POST['age'] .
-        ' user with message:  ' . $_POST['message'] .
+        ' User regiune:  ' . $_POST['regiuni'] .
+        ' User with age:  ' . $_POST['age'] .
+        ' User with message:  ' . $_POST['message'] .
         ' User with password:  ' . $_POST['password'] );
 
 
